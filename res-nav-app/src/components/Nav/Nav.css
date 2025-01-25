@@ -1,6 +1,11 @@
-
+* {
+}
 
 .navBar {
+    font-family: "Chakra Petch", serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 1.1rem;
     display: flex;
     justify-content: space-between;
     align-items: stretch;
@@ -12,7 +17,17 @@
 }
 
 .navLogo {
+    background-color: #FF8F33;
+    padding: 1rem;
+    position: absolute;
     margin-left: 1.7rem;
+    border: 1px solid #292C2D;
+    border-top: 0;
+    min-height: 50px;
+}
+
+.navLogoImg {
+    max-height: 40px;
 }
     
 .navLinks {
@@ -21,11 +36,22 @@
 }
     
 .navLink {
-    color: red;
     display: flex;
     align-items: center;
     text-decoration: none;
-    border-left: 1px solid #292C2D;
+    border: 1px solid #292C2D;
     color: #292C2D;
+    margin: -1px;
+    margin-right: 0px;
     padding: 0 2em;
+}
+
+.navLink:hover {
+    background-color: #FF8F33;
+}
+
+@media screen and (max-width:768px) {
+    .navLinks {
+        display: none;
+    }
 }

@@ -4,13 +4,17 @@ import Home from '../Home';
 import Products from '../Products';
 import Story from '../Story';
 import Contact from '../Contact';
-
+import { ReactComponent as NavLogo } from './assets/nav_logo.svg';
 import './Nav.css'
 
 function Nav() {
     return(
         <nav className="navBar">
-                <h1 className='navLogo'>LOGO</h1>
+            <div>
+            <fig className='navLogo'>
+                <NavLogo className='navLogoImg'></NavLogo>
+            </fig>
+            </div>
             <div className='navLinks'>
                 <Link className='navLink' to="/">Home</Link>
                 <Link className='navLink' to="products">Products</Link>
