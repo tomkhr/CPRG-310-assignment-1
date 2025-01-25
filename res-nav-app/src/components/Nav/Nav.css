@@ -1,0 +1,31 @@
+
+
+.navBar {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    background-color: #F4F2EF;
+    color: #292C2D;
+    min-height: 70px;
+    padding: 0px;
+    border: 1px solid #292C2D;
+}
+
+.navLogo {
+    margin-left: 1.7rem;
+}
+    
+.navLinks {
+    display: flex;
+    justify-content: center;
+}
+    
+.navLink {
+    color: red;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    border-left: 1px solid #292C2D;
+    color: #292C2D;
+    padding: 0 2em;
+}
