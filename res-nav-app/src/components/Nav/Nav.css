@@ -49,6 +49,10 @@
     padding: 0 2em;
 }
 
+.navLink:hover {
+    background-color: #FF8F3340;
+}
+
 .navLinks.mobile {
     position: absolute;
     top: 71px;
@@ -70,10 +74,6 @@
     margin-right: 0px;
     padding: 0 2em;
     height: 100%;
-}
-
-.navLink:hover {
-    background-color: #FF8F33;
 }
 
 .burgerWrap {

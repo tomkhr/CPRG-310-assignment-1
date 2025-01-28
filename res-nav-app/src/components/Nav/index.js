@@ -10,14 +10,14 @@ function Nav() {
         <nav className="navBar">
             <div>
             <Link className='navLogo' to="/">
-                <NavLogo className='navLogoImg'></NavLogo>
+                <NavLogo className='navLogoImg' alt='MidTown ButcherShop Logo' title='MidTown ButcherShop Logo'></NavLogo>
             </Link>
             </div>
             <div className='navLinks'>
-                <Link className='navLink' to="/">Home</Link>
-                <Link className='navLink' to="products">Products</Link>
-                <Link className='navLink' to="story">Story</Link>
-                <Link className='navLink' to="contact">Contact</Link>
+                <Link className='navLink' to="/" alt='Home'>Home</Link>
+                <Link className='navLink' to="products" alt='Products'>Products</Link>
+                <Link className='navLink' to="story" alt='Story'>Story</Link>
+                <Link className='navLink' to="contact" alt='Contact'>Contact</Link>
             </div>
 
             <div className='burgerWrap'>

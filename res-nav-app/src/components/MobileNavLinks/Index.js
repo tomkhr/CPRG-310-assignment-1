@@ -32,10 +32,10 @@ function MobileNavLinks (){
                 right: isOpen ? "-100%" : "0%",
                 transition: "right 0.3s ease-in-out",
             }}>
-                    <Link className='navLinkMobile' to="/">Home</Link>
-                    <Link className='navLinkMobile' to="products">Products</Link>
-                    <Link className='navLinkMobile' to="story">Story</Link>
-                    <Link className='navLinkMobile' to="contact">Contact</Link>
+                    <Link className='navLinkMobile' to="/" alt='Home'>Home</Link>
+                    <Link className='navLinkMobile' to="products" alt='Products'>Products</Link>
+                    <Link className='navLinkMobile' to="story" alt='Story'>Story</Link>
+                    <Link className='navLinkMobile' to="contact" alt='Contact'>Contact</Link>
             </div>
         </div>
     );
