@@ -1,16 +1,20 @@
 .navBar {
     font-family: "Chakra Petch", serif;
-    font-weight: 600;
+    font-weight: 800;
     font-style: normal;
-    font-size: 1.2rem;
+    letter-spacing: .1rem;
+    text-transform: uppercase;
     display: flex;
     justify-content: space-between;
     align-items: stretch;
+    position: sticky;
+    top: 0;
     background-color: #F4F2EF;
     color: #292C2D;
     min-height: 70px;
     padding: 0px;
     border: 1px solid #292C2D;
+    height: 50px;
 }
 
 .navLogo {
@@ -20,7 +24,8 @@
     margin-left: 1.7rem;
     border: 1px solid #292C2D;
     border-top: 0;
-    min-height: 50px;
+    height: 50px;
+    z-index: 100;
 }
 
 .navLogoImg {
@@ -44,12 +49,51 @@
     padding: 0 2em;
 }
 
+.navLinks.mobile {
+    position: absolute;
+    top: 71px;
+    right: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    min-height: 400px;
+}
+
+.navLink.mobile {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    /* border: 1px solid #292C2D; */
+    /* color: #292C2D; */
+    margin: -1px;
+    margin-right: 0px;
+    padding: 0 2em;
+    height: 100%;
+}
+
 .navLink:hover {
     background-color: #FF8F33;
 }
 
+.burgerWrap {
+    display: none;
+}
+
 @media screen and (max-width:768px) {
+
+
     .navLinks {
         display: none;
     }
+
+    .navLink {
+        height: 100%;
+        width: 100%;
+    }
+
+    .burgerWrap {
+        display: block;
+    }
+
 }

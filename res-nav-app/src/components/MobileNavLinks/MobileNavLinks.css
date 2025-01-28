@@ -1,0 +1,51 @@
+.NavigationLinksMobile {
+    display: flex;
+    justify-items: space-between;
+    flex-direction: column;
+    z-index: 1;
+    position: absolute;
+    right: 0;
+    width: 100%;
+    height: 350px;
+    background-color: #F4F2EF;
+    font-size: 1.7rem;
+}
+
+.navLinkMobile {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #292C2D;
+    text-decoration: none;
+    border: 1px solid #292C2D;
+    margin-top: -1px;
+    z-index: 1;
+}
+
+.navLinkMobile:hover {
+    background-color: #FF8F3340;
+}
+
+.burgerLayer {
+    width: 40px;
+    height: 2px;
+    background-color: #292C2D;
+    margin-block: 5px;
+}
+
+.burgerLayer.open {
+    background-color: aqua;
+}
+
+.burgerBox {
+    height: 70px;
+    width: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border-left: 1px solid #292C2D;
+    z-index: 100;
+}
